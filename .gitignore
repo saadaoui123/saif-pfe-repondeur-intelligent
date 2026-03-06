@@ -1,0 +1,7 @@
+models/
+stt_env/
+venv/
+*.wav
+*.mp3
+__pycache__/
+*.log
