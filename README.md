@@ -3,7 +3,7 @@
 Répondeur Téléphonique Intelligent — Cabinet Dentaire de Groupe
 Pipeline : STT (Vosk) → LLM (Mistral 7B) → TTS (edge-tts)
 
-## 📋 Table des matières
+##  Table des matières
 - [Prérequis](#prérequis)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -14,7 +14,7 @@ Pipeline : STT (Vosk) → LLM (Mistral 7B) → TTS (edge-tts)
 
 ---
 
-## 🚀 1. Prérequis
+## 1. Prérequis
 
 - Ubuntu 22.04 / 24.04
 - Python 3.8+
@@ -28,7 +28,7 @@ sudo apt install -y curl git unzip net-tools
 
 ---
 
-## 📦 2. Installation
+##  2. Installation
 
 ### 2.1 Cloner le dépôt
 ```bash
@@ -83,7 +83,7 @@ unzip models/vosk-model-small-fr-0.22.zip -d models/
 
 ---
 
-## ⚙️ 3. Configuration
+##  3. Configuration
 
 ### 3.1 Variables d'environnement
 ```bash
@@ -113,7 +113,7 @@ SIP_CONFIG = {
 
 ---
 
-## 🎯 4. Démarrage
+##  4. Démarrage
 
 Ouvrir **3 terminaux** et exécuter dans l'ordre :
 
@@ -150,7 +150,7 @@ python main.py
 
 ---
 
-## 🧪 5. Tests
+##  5. Tests
 
 ### 5.1 Test Vosk (STT)
 ```bash
@@ -199,7 +199,7 @@ print(f'✓ LLM répond : {reponse[:50]}...')
 
 ---
 
-## 🏗️ 6. Architecture
+##  6. Architecture
 ```
 /home/saif/saif_pfe/
 ├── stt_env/               # Environnement virtuel Python
@@ -227,7 +227,7 @@ print(f'✓ LLM répond : {reponse[:50]}...')
 
 ---
 
-## 🔧 7. Dépannage
+##  7. Dépannage
 
 **Ollama not found**
 ```bash
